@@ -1,0 +1,19 @@
+Creation of Node.js + Express + MongoDB + React project. 
+
+
+1. npm init - project initialization
+ - app.js - main file
+2. npm i express mongoose - installation
+3. npm i -D nodemon - installation into devDependencies
+4. in package.json "scripts": {"start": "node app.js", "server": "nodemon app.js"}, where nodemon reloads server automatically
+5. in Node.js importing with func require("express"): 
+	const express = require('express') 
+6. const app = express()
+7. npm i config
+	- in config/default.json will be saved constans for the project
+8. connection to MongoDB
+9. npm i bcryptjs - for securing passwords
+10. npm i express-validator - checking data from frontend 
+11. jsonwebtoken 
+12. npx create-react-app client
+13. 
